@@ -14,8 +14,17 @@ console.log(symmetricPoint([10, -10], [-10, 10]));*/
 /*const fakeBin = str => str.replace(/[1234]/g, '0').replace(/[56789]/g, '1')
 console.log(fakeBin('45385593107843568'));*/
 
-
-
+// Rock Paper Scissors!
+/*function rps(str1, str2) {
+    if (str1 === str2) return 'Draw!'
+    if (str1 === 'scissors' && str2 === 'paper') return 'Player 1 won!'
+    if (str1 === 'scissors' && str2 === 'rock') return 'Player 2 won!'
+    if (str1 === 'paper' && str2 === 'scissors') return 'Player 2 won!'
+    if (str1 === 'paper' && str2 === 'rock') return 'Player 1 won!'
+    if (str1 === 'rock' && str2 === 'paper') return 'Player 2 won!'
+    if (str1 === 'rock' && str2 === 'scissors') return 'Player 1 won!'
+}
+console.log(rps('paper','paper'));*/
 
 
 
